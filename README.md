@@ -1,4 +1,4 @@
-# ADAPT POC VERSION 1.0.0
+# ADAPT POC VERSION 1.0.1
 
 We have tried to put the simple idea of a ML Model which can answer its user how to use nmap for a task by providing the right command with arguments.
 
