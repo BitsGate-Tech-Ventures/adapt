@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import json
 import nltk
@@ -78,8 +79,11 @@ def run_interactive_mode(input_func, vectorizer, model, lemmatizer, stop_words):
     print("Session ended.")
 
 def main():
-    model_output_path = "nmap_command_classifier.pkl"
-    df_output_path = "nmap_commands_updated.json"
+    # Get the directory of the current script
+    script_dir = os.path.dirname(__file__)
+    
+    model_output_path = os.path.join(script_dir, "nmap_command_classifier.pkl")
+    df_output_path = os.path.join(script_dir, "nmap_commands_updated.json")
 
     # Load the updated model and dataset
     model = load_updated_model(model_output_path)
