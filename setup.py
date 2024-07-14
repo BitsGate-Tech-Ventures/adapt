@@ -11,7 +11,10 @@ setup(
     install_requires=read_requirements(),
     entry_points={
         'console_scripts': [
-            'run_notebook = mypackage.run_notebook:main',
+            'run_notebook = mypackage.poc_model_ver_2:main',
         ],
+    },
+    package_data={
+        'mypackage': ['nmap_commands_updated.json', 'nmap_command_classifier.pkl'],
     },
 )
