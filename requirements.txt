@@ -1,8 +1,5 @@
 pandas
 nltk
 scikit-learn
-numpy
 scipy
 joblib
-packaging>=22.0
-anyio==3.*
