@@ -13,12 +13,17 @@ We have tried to put the simple idea of a ML Model which can answer its user how
    ```bash
    git clone https://github.com/BitsGate-Tech-Ventures/adapt.git
 
-2. Install the package:
+2. **Install setuptools**
+   
+      ```bash
+      pip install setuptools
+
+3. Install the package:
    
       ```bash
       python setup.py install
 
-3. **Run the application:**
+4. **Run the application:**
 
    ```bash
    run_notebook

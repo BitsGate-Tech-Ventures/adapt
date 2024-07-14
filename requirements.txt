@@ -3,3 +3,5 @@ nltk
 scikit-learn
 numpy
 notebook
+packaging>=22.0
+anyio==3.*
