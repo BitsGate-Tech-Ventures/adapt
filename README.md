@@ -17,14 +17,12 @@ First, clone the repository containing the package to your local machine. Open a
 git clone https://github.com/BitsGate-Tech-Ventures/adapt.git
 ```
 
-Replace `<repository-url>` with the URL of your repository.
-
 ### Step 2: Navigate to the Project Directory
 
 Change your directory to the project directory:
 
 ```bash
-cd mypackage
+cd adapt_model_poc
 ```
 
 ### Step 3: Create and Activate a Virtual Environment (Optional but Recommended)
